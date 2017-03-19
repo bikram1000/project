@@ -1,0 +1,11 @@
+.slide{
+	background-color:green;
+	min-height:70px;
+	font-size:large;
+
+}
+.button{
+	min-height:30px;
+	background-color:violet;
+}
+.btn{margin:12px;margin-left:22px;}

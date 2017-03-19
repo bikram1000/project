@@ -1,0 +1,35 @@
+<html>
+<body>
+<form id="fn">
+<p>what is the capital city of nepal?
+<input type="radio" name="one" value="ktm"/>ktm
+<input type="radio" name="one" value="pkr"/>pkr
+</p>
+<p>what is the height of the mt ecvverest?
+<input type="radio" name="two" value="22"/>22
+<input type="radio" name="two" value="44"/>44
+<button onclick="Quiz()">click</button>
+</form>
+<script>
+function Quiz()
+{
+	total=0;
+	b=document.getElementById('fn')['one'].value;
+	bi=document.getElementById('fn')['two'].value;
+
+	if(b=='ktm')
+	{
+	total=total+1;
+
+	}
+	if(bi=='44'){
+	total=total+1;	
+	
+}
+document.write("you have score" +total);
+}
+
+</script>
+</body>
+</html>
+
